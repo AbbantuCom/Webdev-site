@@ -78,39 +78,7 @@ export default function Hero() {
       {/* ── Content ── */}
       <div style={{ position: 'relative', zIndex: 1, maxWidth: 960 }}>
 
-        {/* Eyebrow label */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.1, ease }}
-          style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: 12,
-            fontFamily: 'var(--font-sans)',
-            fontSize: 12,
-            fontWeight: 600,
-            letterSpacing: '0.18em',
-            textTransform: 'uppercase',
-            color: 'var(--gold)',
-            marginBottom: 32,
-            padding: '10px 24px',
-            border: '1px solid var(--gold-border)',
-            borderRadius: 100,
-            background: 'rgba(107,66,38,0.06)',
-            backdropFilter: 'blur(12px)',
-            WebkitBackdropFilter: 'blur(12px)',
-          }}
-        >
-          <span style={{
-            width: 6, height: 6,
-            borderRadius: '50%',
-            background: 'var(--gold)',
-            display: 'block',
-            animation: 'pulseSlow 2.4s ease-in-out infinite',
-          }} />
-          African Digital Studio · Kampala · Africa · Worldwide
-        </motion.div>
+ 
 
         {/* Main headline */}
         <motion.h1
@@ -126,15 +94,15 @@ export default function Hero() {
             letterSpacing: '-0.01em',
           }}
         >
-          Crafting Digital<br />
-          Experiences Rooted<br />
-          in{' '}
+         Websites, Tailored to  {' '}
           <em style={{
             fontStyle: 'italic',
             color: 'var(--gold-light)',
           }}>
-            African Creativity
+            Your Brand  {' '}<br/>
           </em>
+         Built to Perform.<br />
+        {' '}
         </motion.h1>
 
         {/* Sub-headline */}
@@ -152,8 +120,7 @@ export default function Hero() {
             lineHeight: 1.7,
           }}
         >
-          Interactive websites, powerful platforms, and digital experiences
-          designed with culture, creativity, and innovation.
+          Interactive websites, powerful platforms, creativity, and innovation.
         </motion.p>
 
         {/* CTAs */}

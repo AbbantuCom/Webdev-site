@@ -7,7 +7,6 @@ const ITEMS = [
   'Fast Loading',
   'SEO Ready',
   'Custom Built',
-  'African Craftsmanship',
   'World-Class Quality',
 ]
 

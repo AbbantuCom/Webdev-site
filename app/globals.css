@@ -36,8 +36,8 @@
   --glass-blur:    24px;
 
   /* ── Typography ── */
-  --font-serif:    var(--font-playfair), Georgia, 'Times New Roman', serif;
-  --font-sans:     var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-serif:    Arial, sans-serif;
+  --font-sans:     Arial, sans-serif; 
 
   /* ── Spacing ── */
   --section-v:     clamp(100px, 12vw, 160px);

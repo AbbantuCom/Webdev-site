@@ -72,25 +72,15 @@ export default function Navigation() {
                 fontFamily: 'var(--font-serif)',
                 fontSize: '22px',
                 fontWeight: 600,
-                color: 'var(--cream)',
                 letterSpacing: '0.02em',
-                display: 'flex',
-                flexDirection: 'column',
+                display: 'inline-flex',
+                alignItems: 'baseline',
                 lineHeight: 1,
+                textDecoration: 'none',
               }}
             >
-              Aabantu
-              <span style={{
-                fontFamily: 'var(--font-sans)',
-                fontSize: '10px',
-                fontWeight: 500,
-                letterSpacing: '0.16em',
-                color: 'var(--gold)',
-                textTransform: 'uppercase',
-                marginTop: 3,
-              }}>
-                Digital Studio
-              </span>
+              <span style={{ color: 'var(--sand)' }}>Web</span>
+              <span style={{ color: 'var(--cream)' }}>dev</span>
             </a>
 
             {/* Desktop links */}
