@@ -1,4 +1,5 @@
 'use client'
+import type { MouseEvent } from 'react'
 
 const LINKS = [
   { href: '#home',     label: 'Home' },
@@ -128,6 +129,32 @@ export default function Footer() {
               onMouseLeave={e => (e.currentTarget.style.color = 'var(--gold)')}
             >
               rafikifanaka@gmail.com
+            </a>
+            <a
+              href="tel:+256789239136"
+              style={{
+                fontFamily: 'var(--font-sans)',
+                fontSize: 15,
+                color: 'var(--gold)',
+                transition: 'color 0.25s ease',
+              }}
+              onMouseEnter={(e: MouseEvent<HTMLAnchorElement>) => (e.currentTarget.style.color = 'var(--gold-light)')}
+              onMouseLeave={(e: MouseEvent<HTMLAnchorElement>) => (e.currentTarget.style.color = 'var(--gold)')}
+            >
+              +256789239136
+            </a>
+                <a
+              href="tel:+256741979427"
+              style={{
+                fontFamily: 'var(--font-sans)',
+                fontSize: 15,
+                color: 'var(--gold)',
+                transition: 'color 0.25s ease',
+              }}
+              onMouseEnter={(e: MouseEvent<HTMLAnchorElement>) => (e.currentTarget.style.color = 'var(--gold-light)')}
+              onMouseLeave={(e: MouseEvent<HTMLAnchorElement>) => (e.currentTarget.style.color = 'var(--gold)')}
+            >
+              +256741979427
             </a>
             <div style={{ marginTop: 16 }}>
               <a href="#contact" className="btn-primary" style={{ fontSize: 14, padding: '12px 24px' }}>
