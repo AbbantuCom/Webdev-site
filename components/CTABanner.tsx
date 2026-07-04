@@ -104,7 +104,7 @@ export default function CTABanner() {
           style={{ display: 'flex', gap: 20, justifyContent: 'center', flexWrap: 'wrap' }}
         >
           <a
-            href="mailto:rafikifanaka@gmail.com"
+            href="mailto:webdev.rafiki@gmail.com"
             className="btn-primary"
             style={{ fontSize: 16, padding: '18px 44px' }}
           >
@@ -114,11 +114,11 @@ export default function CTABanner() {
             </svg>
           </a>
           <a
-            href="mailto:rafikifanaka@gmail.com"
+            href="mailto:webdev.rafiki@gmail.com"
             className="btn-ghost"
             style={{ fontSize: 16 }}
           >
-            rafikifanaka@gmail.com
+            webdev.rafiki@gmail.com
           </a>
         </motion.div>
 

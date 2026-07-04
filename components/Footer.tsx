@@ -118,7 +118,7 @@ export default function Footer() {
               Get in Touch
             </div>
             <a
-              href="mailto:rafikifanaka@gmail.com"
+              href="mailto:webdev.rafiki@gmail.com"
               style={{
                 fontFamily: 'var(--font-sans)',
                 fontSize: 15,
@@ -128,7 +128,7 @@ export default function Footer() {
               onMouseEnter={e => (e.currentTarget.style.color = 'var(--gold-light)')}
               onMouseLeave={e => (e.currentTarget.style.color = 'var(--gold)')}
             >
-              rafikifanaka@gmail.com
+              webdev.rafiki@gmail.com
             </a>
             <a
               href="tel:+256789239136"
