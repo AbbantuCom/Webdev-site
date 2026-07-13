@@ -39,7 +39,7 @@ export default function Footer() {
               color: 'var(--cream)',
               marginBottom: 4,
             }}>
-              Aabantu
+              Webdev
             </div>
             <div style={{
               fontFamily: 'var(--font-sans)',
@@ -50,7 +50,6 @@ export default function Footer() {
               color: 'var(--gold)',
               marginBottom: 20,
             }}>
-              African Digital Studio
             </div>
             <p style={{
               fontSize: 15,
@@ -178,7 +177,7 @@ export default function Footer() {
             fontSize: 13,
             color: 'var(--muted)',
           }}>
-            &copy; {year} Aabantu. Built with purpose.
+            &copy; {year} Webdev. Built with purpose.
           </span>
 
           {/* Gold diamond row */}

@@ -27,7 +27,7 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 1, ease }}
           >
-            <div className="section-eyebrow">About Aabantu</div>
+            <div className="section-eyebrow">About Webdev</div>
             <h2 style={{
               fontFamily: 'var(--font-serif)',
               fontSize: 'clamp(32px, 4.5vw, 54px)',

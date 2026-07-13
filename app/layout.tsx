@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Inter } from 'next/font/google'
+// Ignore missing type declarations for CSS modules/global CSS imports
+// @ts-ignore: CSS module declarations (*.css) may be missing in the project
 import './globals.css'
 
 const playfair = Playfair_Display({
@@ -18,11 +20,11 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Aabantu — African Digital Studio',
+  title: 'Webdev — Websites, Tailored to Your Brand',
   description:
-    'Interactive websites, powerful platforms, and digital experiences designed with culture, creativity, and innovation. African craftsmanship. World-class quality.',
+    'Interactive websites, powerful platforms, and digital experiences , creativity, and innovation.. World-class quality.',
   openGraph: {
-    title: 'Aabantu — African Digital Studio',
+    title: 'Webdev — Websites, Tailored to Your Brand',
     description:
       'Crafting digital experiences rooted in African creativity.',
     type: 'website',
