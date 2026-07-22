@@ -6,43 +6,43 @@ const ease = [0.22, 1, 0.36, 1] as [number, number, number, number]
 
 const PROJECTS = [
   {
-    href: 'https://webdev.rafikifanaka.com/unicef%20uganda%20annual%20report%20website/index.html',
+    href: 'https://webdev-d3fw.onrender.com/unicef%20uganda%20annual%20report%20website/index.html',
     title: 'UNICEF Uganda Annual Report',
     tag: 'Report Website',
     gradient: 'linear-gradient(135deg, #6B4226 0%, #C8975A 50%, #2C1A0E 100%)',
   },
   {
-    href: 'https://webdev.rafikifanaka.com/agric/index.html',
+    href: 'https://webdev-d3fw.onrender.com/agric/index.html',
     title: 'Agricultural Platform',
     tag: 'Web Platform',
     gradient: 'linear-gradient(135deg, #2C1A0E 0%, #6B8A4E 50%, #C8975A 100%)',
   },
   {
-    href: 'https://webdev.rafikifanaka.com/beverages/index.html',
+    href: 'https://webdev-d3fw.onrender.com/beverages/index.html',
     title: 'Beverages Brand',
     tag: 'Brand Website',
     gradient: 'linear-gradient(135deg, #C8975A 0%, #6B4226 60%, #1A1209 100%)',
   },
   {
-    href: 'https://webdev.rafikifanaka.com/construction/index.html',
+    href: 'https://webdev-d3fw.onrender.com/construction/index.html',
     title: 'Construction Co.',
     tag: 'Corporate Site',
     gradient: 'linear-gradient(135deg, #1C1812 0%, #8A7569 50%, #C8975A 100%)',
   },
   {
-    href: 'https://webdev.rafikifanaka.com/fabrication/index.html',
+    href: 'https://webdev-d3fw.onrender.com/fabrication/index.html',
     title: 'Fabrication Works',
     tag: 'Industrial',
     gradient: 'linear-gradient(135deg, #0F0B07 0%, #C8975A 40%, #6B4226 100%)',
   },
   {
-    href: 'https://webdev.rafikifanaka.com/recycle/index.html',
+    href: 'https://webdev-d3fw.onrender.com/recycle/index.html',
     title: 'Recycle Initiative',
     tag: 'NGO / Impact',
     gradient: 'linear-gradient(135deg, #2C4A2E 0%, #6B8A4E 50%, #C8975A 100%)',
   },
   {
-    href: 'https://webdev.rafikifanaka.com/coming-soon/index.html',
+    href: 'https://webdev-d3fw.onrender.com/coming-soon/index.html',
     title: 'Coming Soon Page',
     tag: 'Launch',
     gradient: 'linear-gradient(135deg, #1A0F0A 0%, #6B4226 60%, #C8975A 100%)',
